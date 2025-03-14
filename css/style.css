@@ -80,7 +80,7 @@ section {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 20vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -431,6 +431,12 @@ span {
 
     .home {
         flex-direction: column;
+        gap: 20px;
+    }
+
+    .home-content {
+        max-width: 475px;
+        width: 100%;
     }
 
     .home-content h3 {
